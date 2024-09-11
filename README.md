@@ -27,3 +27,9 @@ CLIP is a OpenAI product and it is available at [Github](https://github.com/open
 ## LAION
 
 [LAION](https://laion.ai/) is a non-profit organization that provides datasets, tools and models to liberate machine learning research. In particular, for openCLIP, it's the dataset provider for the most downloaded model, with LAION-2B (the English subset of LAION-5B). You can find the models in [HuggingFace](https://huggingface.co/collections/laion/openclip-laion-2b-64fcade42d20ced4e9389b30).
+
+It's relevant to note that a CLIP models will be expecting a short description for the image, based on the distribution of the descriptions in the training dataset. There's an interesting work around this and the concept of "effective length": the paper "Long-CLIP: Unlocking the Long-Text Capability of CLIP" (https://lnkd.in/dky8Hf8N) puts it around 20 tokens, and concludes: "This is because the majority of training texts are likely to be considerably shorter than 77 in the original CLIP model". In fact, in the following graph one can check the quantiles for the length of the text associated with the images:
+
+![laion_2b_quantiles](./images/laion_2b_quantiles.png)
+From: https://laion.ai/blog/laion-5b/#dataset-statistics
+
