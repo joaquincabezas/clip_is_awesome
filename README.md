@@ -13,7 +13,7 @@ Links:
 - [CLIP paper on Arxiv: Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
 - [The Beginner’s Guide to Contrastive Learning](https://www.v7labs.com/blog/contrastive-learning-guide)
 
-| ![CLIP](https://raw.githubusercontent.com/joaquincabezas/clip_is_awesome/images/CLIP.png) |
+| ![CLIP](https://raw.githubusercontent.com/joaquincabezas/clip_is_awesome/main/images/CLIP.png) |
 |:--:|
 | Image Credit: https://github.com/openai/CLIP |
 
