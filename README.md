@@ -41,5 +41,5 @@ In this section I will experiment with some ideas around CLIP and will provide t
 | Demo | Description |
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMBPx3Yu8WA3busCTcdSRmvyOtFBB0yc)| How cosine similarity of CLIP embeddings decrease linearly with the number of pixels replaced by a grey pixel and how a different preprocessing method can drop cosine similarity by a lot|
-
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uBunZkwq5JYlZBAMI8Y0leJaXLAltOP8)| CLIP activations (in the ViT, just after the GELU) change progressively from noise to image, and how in the first block the dynamics are the opposite of the last block.|
 
