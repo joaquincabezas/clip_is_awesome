@@ -1,4 +1,4 @@
-![CLIP](https://raw.githubusercontent.com/joaquincabezas/clip_is_awesome/main/images/clip_is_awesome.png)
+![CLIP_LOGO](./images/clip_is_awesome.png)
 # CLIP is awesome 
 
 ## ELI5 (Explain like I'm 5 years old)
