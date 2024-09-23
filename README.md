@@ -13,6 +13,7 @@ Links:
 - [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
 - [CLIP paper on Arxiv: Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
 - [The Beginner’s Guide to Contrastive Learning](https://www.v7labs.com/blog/contrastive-learning-guide)
+- [Research resources for CLIP from Zhuoning Yuan](https://github.com/yzhuoning/Awesome-CLIP/tree/main)
 
 | ![CLIP](https://raw.githubusercontent.com/joaquincabezas/clip_is_awesome/main/images/CLIP.png) |
 |:--:|
@@ -32,4 +33,13 @@ It's relevant to note that a CLIP models will be expecting a short description f
 
 ![laion_2b_quantiles](./images/laion_2b_quantiles.png)
 From: https://laion.ai/blog/laion-5b/#dataset-statistics
+
+## Experiments
+
+In this section I will experiment with some ideas around CLIP and will provide the notebooks.
+
+| Demo | Description |
+|:-:|:-:|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMBPx3Yu8WA3busCTcdSRmvyOtFBB0yc)| How cosine similarity of CLIP embeddings decrease linearly with the number of pixels replaced by a grey pixel and how a different preprocessing method can drop cosine similarity by a lot|
+
 
