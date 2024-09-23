@@ -47,3 +47,11 @@ In this section I will experiment with some ideas around CLIP and will provide t
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10KR2NgWTjVdCoQQLTiIoB9BpKx7UcP6W)| How CLIP reacts to different noise types.|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nK3sxW7xYENAYjn0NUbMAl--1eNWcPta)| As we approach the final layers, sparsity emerges, hinting an hierarchical learning, with more abstract concepts at these layers. And the last layer is dense again, pushed by gradient flows.|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XZ4FvddUQNecYo90IUBuMUuqz2Mvirlv)| An example of adversarial machine learning, where we can trick CLIP into not recognizing a car by changing the value of just a few pixels .|
+
+## Tools for experimentation
+
+- [Vision Transformer (ViT) Prisma Library](https://github.com/soniajoseph/ViT-Prisma) is an open-source mechanistic interpretability library for vision and multimodal models based on [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) from Neel Nanda.
+
+- [CLIP-Dissect](https://github.com/Trustworthy-ML-Lab/CLIP-dissect) is an automatic and efficient tool to describe functionalities of individual neurons in DNNs.
+
+- [CLIP retrieval](https://github.com/rom1504/clip-retrieval). Easily compute clip embeddings and build a clip retrieval system with them. 100M text+image embeddings can be processed in 20h using a 3080.
