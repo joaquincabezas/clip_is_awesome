@@ -34,6 +34,8 @@ It's relevant to note that a CLIP models will be expecting a short description f
 ![laion_2b_quantiles](./images/laion_2b_quantiles.png)
 From: https://laion.ai/blog/laion-5b/#dataset-statistics
 
+But this is not something we cannot modify, even with the bias on the dataset there are workarounds. Check the repo at https://github.com/facebookresearch/DCI (includes code to reproduce the paper [A Picture is Worth More Than 77 Text Tokens: Evaluating CLIP-Style Models on Dense Captions](https://arxiv.org/abs/2312.08578))
+
 ## Experiments
 
 In this section I will experiment with some ideas around CLIP and will provide the notebooks.
