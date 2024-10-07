@@ -55,3 +55,5 @@ In this section I will experiment with some ideas around CLIP and will provide t
 - [CLIP-Dissect](https://github.com/Trustworthy-ML-Lab/CLIP-dissect) is an automatic and efficient tool to describe functionalities of individual neurons in DNNs.
 
 - [CLIP retrieval](https://github.com/rom1504/clip-retrieval). Easily compute clip embeddings and build a clip retrieval system with them. 100M text+image embeddings can be processed in 20h using a 3080.
+
+- [X-CLIP](https://github.com/lucidrains/x-clip) A concise but complete implementation of CLIP with multiple experiments
