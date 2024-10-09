@@ -53,7 +53,7 @@ But this is not something we cannot modify, even with the bias on the dataset th
 <!-- TOC --><a name="serving"></a>
 ## Serving
 
-When preparing the model for inference, we can experience a very smooth learning curve. We can start with a python file that executes the model as-is, and then take small steps towards a more efficient approach. In this repo we will be using [CLIP retrieval](https://github.com/rom1504/clip-retrieval) for batch inference and [NVIDIA Triton Inference Server](https://developer.nvidia.com/triton-inference-server) for online inference.
+When preparing the model for inference, we can experience a very smooth learning curve. We can start with a python file that executes the model as-is, and then take small steps towards a more efficient approach. In this repo we will be using [CLIP retrieval](https://github.com/rom1504/clip-retrieval) for batch inference and [NVIDIA Triton Inference Server](https://developer.nvidia.com/triton-inference-server) for online inference. For the online inference we will convert the model into ONNX and TensorRT, with reduced precision (FP16, INT8). Remember it's necessary to conduct benchmarking again when you modify the model.
 
 ### Tools for serving
 
