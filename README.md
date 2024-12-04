@@ -8,6 +8,7 @@
  3. [OpenCLIP](#openclip)
  4. [Serving](#serving)
  5. [Experimentation](#experiments)
+ 6. [CLIP-like](#clip-like)
 
 <!-- TOC --><a name="ELI-5"></a>
 ## ELI5 (Explain like I'm 5 years old)
@@ -79,3 +80,12 @@ In this section I will experiment with some ideas around CLIP and will provide t
 - [CLIP-Dissect](https://github.com/Trustworthy-ML-Lab/CLIP-dissect) is an automatic and efficient tool to describe functionalities of individual neurons in DNNs.
 
 - [X-CLIP](https://github.com/lucidrains/x-clip) A concise but complete implementation of CLIP with multiple experiments
+
+<!-- TOC --><a name="clip-like"></a>
+## CLIP-like models
+
+CLIP is nowadays more of a concept, and many models are based on the original idea but with a different approach.
+
+- [TULIP](https://github.com/ivonajdenkoska/tulip) Method to upgrade the caption length of CLIP-like models to perform long caption understanding
+
+- [A Picture is Worth More Than 77 Text Tokens: Evaluating CLIP-Style Models on Dense Captions](https://arxiv.org/abs/2312.08578))
