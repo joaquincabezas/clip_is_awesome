@@ -86,6 +86,8 @@ In this section I will experiment with some ideas around CLIP and will provide t
 
 CLIP is nowadays more of a concept, and many models are based on the original idea but with a different approach.
 
+- [SigLIP](https://huggingface.co/docs/transformers/model_doc/siglip) replaces the loss function used in CLIP by a simple pairwise sigmoid loss. This results in better performance in terms of zero-shot classification accuracy on ImageNet.
+
 - [TULIP](https://github.com/ivonajdenkoska/tulip) Method to upgrade the caption length of CLIP-like models to perform long caption understanding
 
 - [A Picture is Worth More Than 77 Text Tokens: Evaluating CLIP-Style Models on Dense Captions](https://arxiv.org/abs/2312.08578))
