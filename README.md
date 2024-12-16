@@ -58,7 +58,7 @@ When preparing the model for inference, we can experience a very smooth learning
 
 ### Tools for serving
 
-- [clip-as-service](https://github.com/jina-ai/clip-as-service). [JINA AI](https://jina.ai/) scalable embedding, reasoning, ranking for images and sentences with CLIP.
+- [clip-as-service](https://github.com/jina-ai/clip-as-service).Scalable embedding, reasoning, ranking for images and sentences with CLIP, from [Jina AI](https://jina.ai/).
 - [CLIP retrieval](https://github.com/rom1504/clip-retrieval). Easily compute clip embeddings and build a clip retrieval system with them. 100M text+image embeddings can be processed in 20h using a 3080.
 
 <!-- TOC --><a name="experiments"></a>
